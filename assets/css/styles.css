@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.banner{
+    width: 100%;
+    height: 100%;
+
+}
+.proximo{
+    display: flex;
+    justify-content: end;
+    margin-top: 4.7%;
+    margin-right: 10%;
+   margin-left: 0;
+}
+.anterior{
+    display: flex;
+    justify-content: start;
+    margin-top: -5.5%;
+    margin-bottom: 5%;
+   margin-left: 10%;
+}
+
+
+body {
+    background-image: url(../img/fundo.jpg);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;    
+}
+.topo {
+    color: white;
+}
+
+.header {
+    background-image: url(../img/7901954.jpg);
+    background-position: 20%;
+    background-size: 100%;
+    padding: 0px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 0.5em;
+
+}
+
+.pokedex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.pokemon-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 10px;
+    border: 5px;
+    padding: 20px;
+    width: 120px;
+    border-radius: 20px;
+}
+
+.pokemon-card:hover {
+    border-style: solid;
+    border-color: red;
+    transform: translate3d(-10);
+    cursor: pointer;
+    font-weight: bold;
+    transition: 1ms;
+}
+
+.pokemon-card a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.8em;
+}
+
+.pokemon-card img {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+}
+
+@media (max-width: 600px) {
+    .pokemon-card {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+footer{
+    background-image: url(../img/7901954.jpg);
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.7em;
+}
+.rodape{
+    background-image: url(../img/7901954.jpg);
+}
+
+
